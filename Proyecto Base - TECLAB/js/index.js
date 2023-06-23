@@ -21,5 +21,29 @@ const carrito =[{codigo:123, nombre: 'Teclado Bluetooth', importe: 15500},
                 let numerico ="1"
                 let string = "frutas"
                 const arrayFrutas = ["Manzana","Banana","Pera","Limon","Mango" ]
+
+let userName = "mcmillanjoe"
+let password = "mcmillan-security.1990"
+
+if(userName === "mcmillanjoe" && password === "mcmillan-security.1990") {
+    console.log("bienvenido nuevamete, " + userName)
+} else {
+    console.log("no se reconoce el usuario y/o la contraseña ingresada.")
+}
                 
-                           
+                let valorOfertado = 2500
+                switch (valorOfertado){
+                    case 1000: 
+                        console.warn("Su oferta es muy baja. Realiza una mejor oferta.")
+                        break;
+                    case 2000:
+                        console.log("Gracoas por tu oferta, Puedes retirar el producto hoy mismo.")
+                        break;
+                    default:
+                        console.error("No pudimos interpretar tu oferta. Intenta nuevamente.")    
+
+                }   
+
+let edad = 18;
+let resultado = edad >= 18 ? "Eres mayor de edad" : "Eres menor de edad"
+console.log(resultado); // devuelve como resultado: "Eres menor de edad"
